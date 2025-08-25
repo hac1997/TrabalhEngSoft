@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ngnrtFramework">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Morelli_v0.1.1/ngnrtFramework.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

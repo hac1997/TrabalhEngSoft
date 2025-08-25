@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Morelli_v0.1.1/dist/lib/NGServer.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Morelli_v0.1.1/dist/lib/netbeans_databindingme_svg.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Morelli_v0.1.1/dist/lib/netbeans_databindingme.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Morelli_v0.1.1/dist/lib/netbeans_databindingme_pim.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Morelli_v0.1.1/dist/lib/NGFramework.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Morelli_v0.1.1/dist/lib/NetGamesFileOffline.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Morelli_v0.1.1/dist/lib/ngnrtFramework.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Morelli_v0.1.1/dist/lib/servidor.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

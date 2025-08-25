@@ -26,16 +26,16 @@
 ```
 Morelli/
 ├── src/
-│   ├── entidades/           # Camada de Domínio
+│   ├── entidades/           # Models
 │   │   ├── Tabuleiro.java
 │   │   ├── Faixa.java
 │   │   ├── Posicao.java
 │   │   ├── Jogador.java
 │   │   └── NetGames.java
-│   ├── interfaceGrafica/    # Camada de Apresentação
+│   ├── interfaceGrafica/    # View
 │   │   ├── AtorJogador.java
 │   │   └── TelaJogador.java
-│   ├── mensagens/           # Internacionalização
+│   ├── mensagens/          # Internacionalização
 │   └── morelli/            # Ponto de entrada
 └── dist/                   # Distribuição
 ```

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="netgames">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Morelli_v0.1.1/netgames/NetGamesFileOffline.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Morelli_v0.1.1/netgames/servidor.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
