@@ -43,9 +43,35 @@ INFORMAÇÕES: Server: Jogador aaa adicionado no jogo 826358115
 ago 24, 2025 11:58:15 AM br.ufsc.inf.leobr.servidor.ServerHandler estabelecerSessao
 INFORMAÇÕES: Jogador(aaa): Sessão entre cliente e servidor estabelecida.
 ```
+Quando há uma conexão entre um jogador e o server:
 
-Cada joga de um player gera uma mensagem assim:
+```
+
+INFORMAÇÕES: Server: Adicionando o jogador bb no jogo 891669486
+ago 24, 2025 10:58:08 PM br.ufsc.inf.leobr.servidor.Server cadastrarNoJogo
+INFORMAÇÕES: Server: Jogo 891669486já está rodando.
+ago 24, 2025 10:58:08 PM br.ufsc.inf.leobr.servidor.Jogo incluirJogador
+INFORMAÇÕES: Jogador: bb incluido no jogo (891669486). Numero de jogadores ativos: 2
+ago 24, 2025 10:58:08 PM br.ufsc.inf.leobr.servidor.Server cadastrarNoJogo
+INFORMAÇÕES: Server: Jogador bb adicionado no jogo 891669486
+ago 24, 2025 10:58:08 PM br.ufsc.inf.leobr.servidor.ServerHandler estabelecerSessao
+INFORMAÇÕES: Jogador(bb): Sessão entre cliente e servidor estabelecida.
+
+```
+Cada jogada de um player gera uma mensagem assim:
 
 ```
 Mensagem recebida no proxy, enviado aos ouvintes:
 ```
+Quando algum jogador tenta efetuar uma jogada:
+```
+ago 24, 2025 11:21:26 PM br.ufsc.inf.leobr.servidor.ServerHandler enviaJogada
+INFORMAÇÕES: Jogador(bb): Tentando efetuar uma jogada.
+ago 24, 2025 11:21:26 PM br.ufsc.inf.leobr.servidor.Partida efetuaJogada
+INFORMAÇÕES: Jogo(891669486) Partida(1): Efetuando uma jogada enviada pelo jogador bb
+ago 24, 2025 11:21:26 PM br.ufsc.inf.leobr.servidor.ServerHandler recebeJogada
+INFORMAÇÕES: Jogador(aa): Invocando o método receberJogada no jogador
+ago 24, 2025 11:21:26 PM br.ufsc.inf.leobr.servidor.Partida efetuaJogada
+INFORMAÇÕES: Jogo(891669486) Partida(1): Jogada efetuada com sucesso pelo jogador bb
+```
+
