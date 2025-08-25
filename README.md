@@ -6,8 +6,10 @@ O Morelli é um jogo de tabuleiro digital implementado em Java, desenvolvido com
 
 ## Como Executar
 
-terminar
-
+- Clone o repositório.
+- Usando o Intelij, abra primeiro o NetGamesFileOffline.jar e logo em seguida o servidor.jar (ambos na pasta netgames)
+- Rode agora o Morelli.jar dentro da pasta dist
+ 
 ## Regras do Jogo
 
 ### Objetivo
